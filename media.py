@@ -22,6 +22,6 @@ class Movie():
         if self.rating in Movie.VALID_RATINGS:
             return "This film is rated {}".format(self.rating)
         else:
-            return "TWarning: this film does not have a valid rating."
+            return "Warning: this film does not have a valid rating."
         
 
